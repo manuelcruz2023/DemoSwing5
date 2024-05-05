@@ -1,5 +1,7 @@
 package co.edu.uptc.views.dialog.panelsDialogAddView;
 
+import co.edu.uptc.views.ConfigGlobalView;
+
 public class PanelFooterDialogAdd extends javax.swing.JPanel{
     
     public PanelFooterDialogAdd() {
@@ -7,6 +9,6 @@ public class PanelFooterDialogAdd extends javax.swing.JPanel{
     }
 
     private void initPanel() {
-        this.setBackground(java.awt.Color.cyan);
+        this.setBackground(ConfigGlobalView.FOOTER_BACKGROUND_COLOR);
     }
 }

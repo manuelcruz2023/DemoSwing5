@@ -2,6 +2,7 @@ package co.edu.uptc.views.dialog.panelsDialogAddView;
 
 import javax.swing.JButton;
 
+import co.edu.uptc.views.ConfigGlobalView;
 import co.edu.uptc.views.dialog.ManagerDialogUserView;
 
 public class PanelBodyDialogAdd extends javax.swing.JPanel{
@@ -12,7 +13,7 @@ public class PanelBodyDialogAdd extends javax.swing.JPanel{
     }
 
     private void initPanel() {
-        this.setBackground(java.awt.Color.gray);
+        this.setBackground(ConfigGlobalView.BODY_BACKGROUND_COLOR);
     }
 
     private void createButtonAdd() {

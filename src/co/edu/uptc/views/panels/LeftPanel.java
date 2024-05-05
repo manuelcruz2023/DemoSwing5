@@ -2,6 +2,8 @@ package co.edu.uptc.views.panels;
 
 import javax.swing.JPanel;
 
+import co.edu.uptc.views.ConfigGlobalView;
+
 public class LeftPanel extends JPanel{
     
     public LeftPanel() {
@@ -9,7 +11,7 @@ public class LeftPanel extends JPanel{
     }
 
     private void initPanel() {
-        this.setBackground(java.awt.Color.cyan);
-        this.setPreferredSize(new java.awt.Dimension(200, 0));
+        this.setBackground(ConfigGlobalView.LEFT_BACKGROUND_COLOR);
+        this.setPreferredSize(new java.awt.Dimension(150, 0));
     }
 }

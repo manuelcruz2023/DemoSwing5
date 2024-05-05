@@ -1,6 +1,9 @@
 package co.edu.uptc.views.dialog.panelsDialogUserView;
 
 import javax.swing.JButton;
+
+import co.edu.uptc.views.ConfigGlobalView;
+
 import java.awt.*;
 
 public class PanelFooterDialog extends javax.swing.JPanel{
@@ -10,7 +13,7 @@ public class PanelFooterDialog extends javax.swing.JPanel{
     }
 
     private void initPanel() {
-        this.setBackground(java.awt.Color.BLUE);
+        this.setBackground(ConfigGlobalView.FOOTER_BACKGROUND_COLOR);
         this.setBounds(0, 0, 400, 200);
     }
 

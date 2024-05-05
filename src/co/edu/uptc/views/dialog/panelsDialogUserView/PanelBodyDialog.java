@@ -4,10 +4,9 @@ import javax.swing.ButtonGroup;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JRadioButton;
-
-import com.toedter.calendar.JCalendar;
 import com.toedter.calendar.JDateChooser;
 
+import co.edu.uptc.views.ConfigGlobalView;
 import co.edu.uptc.views.dialog.configTextFieldView.ConfigTextFieldNumber;
 import co.edu.uptc.views.dialog.configTextFieldView.LimitedTextField;
 
@@ -20,7 +19,7 @@ public class PanelBodyDialog extends javax.swing.JPanel {
     }
 
     private void initPanel() {
-        this.setBackground(java.awt.Color.gray);
+        this.setBackground(ConfigGlobalView.BODY_BACKGROUND_COLOR);
         this.setLayout(null);
     }
 
