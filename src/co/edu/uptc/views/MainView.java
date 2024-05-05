@@ -8,7 +8,7 @@ public class MainView extends JFrame{
     private static MainView instance = null;
 
     //TODO quitar el singleton
-    
+    //creo que quite el bin 
     private MainView() {
         initFrame();
         headerPanel();
