@@ -6,6 +6,8 @@ import co.edu.uptc.views.panels.*; // Import all panels
 public class MainView extends JFrame{
 
     private static MainView instance = null;
+
+    //TODO quitar el singleton
     
     private MainView() {
         initFrame();
